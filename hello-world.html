@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link href='http://fonts.googleapis.com/css?family=Noticia+Text:400,700' rel='stylesheet' type='text/css' />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <title> Hello World! | Momo Ong </title>
+
+    <link rel="stylesheet" href="/theme/css/style.css" type="text/css" />
+    <link rel="stylesheet" href="/theme/css/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="/theme/css/font-awesome.css" type="text/css"/>
+
+    <!-- Using MathJax, with the delimiters $ -->
+    <!-- Conflict with pygments for the .mo and .mi -->
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+      "HTML-CSS": {
+      styles: {
+      ".MathJax .mo, .MathJax .mi": {color: "black ! important"}}
+      },
+      tex2jax: {inlineMath: [['$','$'], ['\\\\(','\\\\)']],processEscapes: true}
+      });
+    </script>
+
+    <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML"></script>
+  </head>
+  <body>
+    <div class=container>
+<div class="header">
+    <a href="/">Momo Ong</a> <span class="muted"></span>
+</div>
+
+<div class=navigation>
+    <ul>
+            <li><a href="/index.html">Blog</a> </li>
+            <li><a href="/archives.html">Archive</a> </li>
+            <li><a href="/tags.html">Tags</a> </li>
+            <li><a href="/pages/about.html">About</a> </li>
+    </ul>
+</div>
+<div class=separator></div>
+        <div class=body>
+    <h1 class="title"> Hello World!</h1>
+    <p class=date> 30 03 2014 </p>
+    <p>Hello World! I created this blog/website with the <code>Pelican</code> static site generator, using the beautiful <code>flasky</code> theme by <a href="http://fjavieralba.com/">fjavieralba</a>.</p>
+<p>On this blog, I will not only express my (techncial <em>and</em> non-technical) thoughts, but also document interesting concepts I come across while working with data.</p>
+<p>I hope you will enjoy the content of this blog!</p>
+    
+    <p class=tags>This entry was tagged as
+      <a href="/tag/blog.html">blog</a>
+    </p>
+        </div>
+
+<div class=footer>
+  <p>&copy; Copyright <script language="JavaScript">var date = new Date(); document.write(date.getFullYear());</script> by Momo Ong</p>
+  <p> Powered by <a href="http://pypi.python.org/pypi/pelican/" target="_blank">Pelican</a>.
+    <a href="https://github.com/fjavieralba/flasky">Theme</a>  by <a href="http://fjavieralba.com">fjavieralba</a>
+  </p>
+  <p>
+    <div class=social style="font-size: 27px;">
+      <ul>
+<!--        <script language="JavaScript">
+          u = '';
+          s = '';
+          document.write('<a href=\"mailto:' + u + '@' + s + '\" target=\"_blank\">');
+        </script>
+            <li><i class="icon-envelope icon-large"></i> </li>
+        </a> -->
+<!--         <a href="http://twitter.com/" target="_blank"> <li> <i class="icon-twitter-sign icon-large"> </li></i> </a> -->
+        <a href="http://linkedin.com/in/momoong" target="_blank"><li><i class="icon-linkedin-sign icon-large" ></i></li></a>
+        <a href="http://github.com/omomo" target="_blank"> <li> <i class="icon-github-sign icon-large"></i> </li> </a>
+<!--         <a href="" target="_blank"><li> <i class="icon-facebook-sign icon-large"></i></li> </a> -->
+<!--         <a href="" target="_blank"><li><i class="icon-google-plus-sign icon-large"></i> </li> </a> -->
+<!--         <a href="" target="_blank"><li><i class="icon-pinterest-sign icon-large"></i></li></a> -->
+
+
+        <a href="/feeds/all.rss.xml" rel="alternate" title="Recent Blog Posts"><li> <i class="icon-rss icon-large"></i> </li></a>
+      </ul>
+    </div>
+  </p>
+</div>    </div>
+  </body>
+</html>
